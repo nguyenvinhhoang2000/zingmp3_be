@@ -19,7 +19,7 @@ router.get("/:id", (req, res, next) => {
       res.json(data);
     })
     .catch((err) => {
-      res.status(500).json("co loi ben phia sever");
+      res.status(500).json("co loi ben phia severr");
     });
 });
 
